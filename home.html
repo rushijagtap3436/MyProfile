@@ -3,15 +3,45 @@
 
 <head>
     <title> Home </title>
+    <style>
+        .para{
+            color:blue;
+            font-size:25px;
+            text-shadow:5px 5px 7px blueviolet;
+            text-align: center;
+            border-bottom-style:dotted;
+            
+            
+        }
+        #heading_7{
+            color:chocolate;
+            font-size:15px;
+            font-style: italic;
+           
+           
+        }
+        #objects{
+            text-transform: capitalize;
+            text-shadow:5px 5px 7px blueviolet;
+        }
+        li::selection{
+        background-color: bisque;
+        color: cadetblue;
+     }
+
+    </style>
 </head>
 
 <body>
-    <article>
-        <h4> CAREER OBJECTIVES</h4>
-            <li>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATION GROWTH</li>
+    <article >
+        <h2 class="para" id="objects">
+            <marquee direction="left" width="700px" height="30px" behavior="sliding" bgcolor=""> PROFESSIONAL SUMMARY  </marquee>
+
+        </h2>
+            <li id="heading_7">TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATION GROWTH</li>
     </article>
     <article>
-        <h4> PROFESTIONAL SUMMARY</h4>
+        <h4 class="para"> PROFESTIONAL SUMMARY</h4>
         	<li>Having 2 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li><br>
             <li>Experience in working with Angular 8 modules, services, templates, directives, services and dependency injection to create SPA</li>
             <li>Hands on experience on Angular CLI (Command line Interface)</li>

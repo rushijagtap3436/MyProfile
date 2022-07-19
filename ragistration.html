@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form</title>
+
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>
+                <h3>Student ragistration From</h3>
+            </legend>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <label for="firstname"> First Name </label> </td>
+                        <td><input type="text" id="firstname" placeholder="Only First name"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Last Name </label> </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Mobile Number </label> </td>
+                        <td> <input type="number" maxlength="10"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Email</label></td>
+                        <td> <input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Password</label></td>
+                        <td> <input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Country</label></td>
+                        <td> <input type="text" value="India" readonly></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Do you have bank details</label></td>
+                        <td> <input type="text" value="yes" disabled></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date of Birth</label></td>
+                        <td> <input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Available in week</label></td>
+                        <td> <input type="week"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Prefered time</label></td>
+                        <td> <input type="time"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select profile file</label></td>
+                        <td> <input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Graduation</label></td>
+                        <td>
+                            <select>
+                                <option> BE</option>
+                                <option> Mca</option>
+                                <option> Mcs</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Graduation</label></td>
+                        <td>
+                            <select>
+                                <optgroup label="bachelor of engineering">
+                                    <option>computer science</option>
+                                    <option>information tecnology</option>
+                                    <option>machanical</option>
+                                    <option>civil</option>
+                                </optgroup>
+                                <optgroup label="master in comp application">
+                                    <option>MCA science</option>
+                                    <option>MCA commers</option>
+
+                                </optgroup>
+                                <optgroup label="MBA">
+                                    <option>a</option>
+                                    <option>b</option>
+                                    <option>c</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Certificates</label></td>
+                        <td> <input type="file" multiple></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label> Select Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender">
+                            <label> Male</label name="gender">
+                            <input type="radio" name="gender">
+                            <label> Femal</label name="grnder">
+                            <input type="radio" name="gender">
+                            <label>Others</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label>Please select checkbox</label></td>
+                        <td> <input type="checkbox">
+                            <label>angular</label>
+
+                            <input type="checkbox">
+                            <label>java</label>
+
+                            <input type="checkbox">
+                            <label>.net</label>
+
+                            <input type="checkbox">
+                            <label>DevOps</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Address</label></td>
+                        <td> <textarea cols="30" rows="6"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit"></td>
+                        <td> <input type="reset"></td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
