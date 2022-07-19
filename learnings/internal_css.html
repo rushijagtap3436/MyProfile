@@ -3,13 +3,15 @@
     <head>
         <style>  
               <title> Internal CSS</title>
-        /* p ,h5{
+         p ,h5{
             color: red;
             font-size:40px;
         }
         .para {
+            border-bottom-style:solid ;
             color: red;
             font-size:40px;
+            text-align:center;
         }
         h4 {
             color: blue;
@@ -17,20 +19,123 @@
         }
         #heading_7, h3, .para{
             color: chartreuse;
-        } */
+        }
         *{color:blue;
             font-size:20px;
 
         }
+        body{
+            /* background-image:url(../resources/image5.jpg) ; */
+            background-repeat:no-repeat;
+            font-family:"" ;
+        }
+        .para1{
+            /* border-style: solid;
+            border-width: 5px;
+            border-color: blueviolet; */
+            border:5px solid blueviolet;
+            border-radius: 15px;
+            height:20px; 
+            width:200px;
+            padding: 20px;
+            margin:12px 15px 15px 10px;  
+        }
+        .para3{
+            border:5px solid blueviolet;
+            border-radius: 15px;
+            height:20px; 
+            width:200px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 12px;
+            padding-right: 10px;
+        }
+        ul{
+            list-style: lower-alpha;
+            float: right;
+        }
+        ol{
+            list-style:lower-roman;
+        }
+        li{
+            margin: 5px;
+        }
+        #overflow_prop{
+            width: 200px;
+            height: 200px;
+            border: 1px solid cadetblue;
+            overflow: auto;
+            box-shadow: 5px 3px 2px;
+         }
+         .div4{
+            width: 200px;
+            height: 100px;
+            background-color: cadetblue;
+            /* display: none; */
+            /* position: absolute; */
+            z-index: 2;   /* size and attach div5*/
+           
+         }
+         .div5{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(159, 108, 19);
+            /* visibility: hidden; */
+            /* position: fixed; */
+            z-index: 3;   /* size and attach div4*/
+
+         }
+         /* *{
+            margin: 0px;
+            padding: 0px;
+         } */
+
+
     </style>
 
     </head>
-    <body>  
-        <p class="para"> This is paragraph 1</p>
+    <body > 
+
+        <p>display none and visibility hidden property</p>
+        <hr>
+        
+        <div>
+            <p class="div4"> this is paregraph 1</p>
+        </div>
+        <div>
+            <p class="div5"> this is paregraph 2</p>
+        </div>
+        <hr>
+
+
+        <p id="overflow_prop">  the main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+            "the pictures are clear and relthe main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+            "the pictures are clear and relthe main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+         "the pictures are clear and relthe main body of a book or other piece of writing, as distinct from other material such as notes, appendices, and illustrations.
+         </p>
+
+
+           
+                <p>my hobbies :</p>
+            <ul>
+                <li> Technical Skills</li>
+                <li> Love of learning</li>
+                <li> Communication Skills</li>
+                <li> Softwere Development</li>
+              </ul>
+              <ol>
+                <li>Reading educational book</li>
+                <li>Listening music </li>
+                <li>Drawing Mandala art</li>
+                <li>Learning new things</li>
+              </ol>
+    
+
+        <p class="para1"> This is paragraph 1</p>
 
         <p class="para"> This is paragraph 2</p>
 
-        <p> This is paragraph 3</p>
+        <p class="para3"> This is paragraph 3</p>
 
         <h4> this is heading 4</h4>
 
